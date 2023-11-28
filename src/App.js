@@ -1,23 +1,13 @@
-import logo from './logo.svg';
+import Tarif from './tarif';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+<Tarif price={300} speed={10}></Tarif>
+<Tarif price={450} speed={50}></Tarif>
+<Tarif price={550} speed={100}></Tarif>
+<Tarif price={1000} speed={200}></Tarif>
     </div>
   );
 }

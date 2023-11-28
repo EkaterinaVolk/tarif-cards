@@ -1,5 +1,47 @@
 .App {
   text-align: center;
+  display: flex;
+  gap: 2px;
+  padding: 20px;
+}
+
+.tarif-card {
+  max-width: 200px;
+  background-color: #eee;
+}
+
+.header {
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  padding-bottom: 25px;
+  border-bottom: solid white 2px;
+}
+
+.price-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.price {
+  margin: 0px;
+  color: white;
+  font-size: 46px;
+  font-weight: 600;
+}
+
+.priceParagraph {
+  align-self: flex-end;
+  margin: 0px 5px 0px 0px;
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.paragraph {
+  background-color: #d5d5d5;
+  padding: 5px;
+  margin: 0px;
 }
 
 .App-logo {
