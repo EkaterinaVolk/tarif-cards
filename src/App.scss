@@ -1,0 +1,98 @@
+.App {
+  text-align: center;
+  display: flex;
+  gap: 2px;
+  padding: 20px;
+}
+
+.blue, 
+.black, 
+.green {
+  display: flex;
+  flex-direction: column;
+
+  margin: 10px 0px 10px 0px;
+  width: 200px;
+  background-color: #eee;
+}
+
+.red {
+  display: flex;
+  flex-direction: column;
+width: 220px;
+height: 300px;
+background-color: #eee;
+margin: 0px;
+}
+
+.header {
+  margin: 0px;
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  padding-bottom: 25px;
+  border-bottom: solid white 2px;
+}
+
+.price-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.price {
+  margin: 0px;
+  color: white;
+  font-size: 46px;
+  font-weight: 600;
+}
+
+.priceParagraph {
+  align-self: flex-end;
+  margin: 0px 10px 0px 0px;
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.paragraph {
+  flex-grow: 1;
+  background-color: #d5d5d5;
+  padding: 20px 10px 10px 10px;
+  margin: 0px;
+}
+
+.blue {
+.header, 
+.price-container
+ {
+  padding: 10px 0px 10px 0px;
+  background-color: #2cc1d5;
+}
+}
+
+.black {
+.header, 
+.price-container
+ {
+  padding: 10px 0px 10px 0px;
+  background-color: #333a44;
+}
+}
+
+.green {
+.header, 
+.price-container
+ {
+  padding: 10px 0px 10px 0px;
+  background-color: #24ae8d;
+}
+}
+
+.red {
+.header, 
+.price-container
+  {
+  padding: 10px 0px 10px 0px;
+  background-color: #f46a5f;
+}
+}

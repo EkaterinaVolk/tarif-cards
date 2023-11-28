@@ -2,7 +2,7 @@ import React from 'react'
 
 function Tarif(props) {
     return (
-        <div className="tarif-card">
+        <div className={props.class}>
                 <h4 className="header">Безлимитный {props.price}</h4>
                 <div className="price-container">            
                     <p className="price">{props.price}</p>
@@ -16,3 +16,4 @@ function Tarif(props) {
 
 
 export default Tarif;
+

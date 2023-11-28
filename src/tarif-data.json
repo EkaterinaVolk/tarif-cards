@@ -1,0 +1,21 @@
+[{
+    "price": "300",
+    "speed": "10",
+    "class": "blue"
+  },
+  {
+    "price": "450",
+    "speed": "50",
+    "class": "green"
+  },
+  {
+    "price": "550",
+    "speed": "100",
+    "class": "red"
+  },
+  {
+    "price": "1000",
+    "speed": "200",
+    "class": "black"
+  }
+]

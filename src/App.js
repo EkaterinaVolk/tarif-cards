@@ -1,14 +1,13 @@
 import Tarif from './tarif';
-import './App.css';
+import './App.scss';
+import tarifs from './tarif-data.json';
 
 function App() {
   return (
     <div className="App">
-<Tarif price={300} speed={10}></Tarif>
-<Tarif price={450} speed={50}></Tarif>
-<Tarif price={550} speed={100}></Tarif>
-<Tarif price={1000} speed={200}></Tarif>
-    </div>
+        {tarifs.map((tarif) => 
+<Tarif price={tarif.price} speed={tarif.speed} class={tarif.class}></Tarif>)}
+</div>
   );
 }
 
