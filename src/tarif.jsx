@@ -2,7 +2,7 @@ import React from 'react'
 
 function Tarif(props) {
     return (
-        <div className={props.class}>
+        <div className={props.class} id={props.flag === true ? 'newid' : null}>
                 <h4 className="header">Безлимитный {props.price}</h4>
                 <div className="price-container">            
                     <p className="price">{props.price}</p>
