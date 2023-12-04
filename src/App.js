@@ -11,10 +11,11 @@ function App() {
   }
 
   return (
-    <div className="App">
+    <div className="App" onClick={editFlag}>
+      {/* не понимаю, как "повесть" onClick на конкретный див */}
         {tarifs.map((tarif) => 
-<Tarif price={tarif.price} speed={tarif.speed} class={tarif.class} flag={flag}></Tarif>)}
-<button onClick={editFlag}>Boooom</button>
+<Tarif  {...tarif} flag={flag}></Tarif>)}
+
 </div>
   );
 }
