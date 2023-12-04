@@ -7,7 +7,7 @@ function App() {
   const [flag, setFlag] = useState(true);
 
   function editFlag() {
-    setFlag(false)
+    setFlag(!flag)
   }
 
   return (
